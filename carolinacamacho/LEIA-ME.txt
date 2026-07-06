@@ -1,0 +1,32 @@
+CAROLINA CAMACHO — NOVO WEBSITE
+================================
+
+COMO PUBLICAR
+1. Copie todos os ficheiros .html e as pastas "assets/" e "imgs/" para a raiz
+   do seu alojamento (onde estão hoje os ficheiros antigos).
+2. A pasta "imgs/" deste pacote já inclui o logótipo da empresa e os logótipos
+   das seguradoras (limpos e otimizados). Pode juntá-la à pasta "imgs/" que já
+   existe no servidor — os nomes são novos, nada é substituído.
+3. NÃO apague do servidor:
+   - pdf/declaracao_amigavel.pdf  (Declaração Amigável, página Sinistros)
+   Nota: a antiga fotografia imgs/sobrenos.jpg deixou de ser usada — foi
+   substituída por ilustrações (imgs/equipa.svg e imgs/protecao.svg). Para
+   usar fotografias reais no futuro, basta substituir estes dois ficheiros.
+
+FORMULÁRIOS (IMPORTANTE)
+Os formulários de Simulação e de Contacto estão prontos, mas o atributo
+action="#" precisa de ser ligado ao script de envio de email que o site antigo
+usava no servidor (normalmente um ficheiro .php). Procure nos ficheiros o
+comentário:
+    <!-- NOTA: ligar o atributo action ao script de envio existente no servidor -->
+e substitua "#" pelo caminho do script (ex.: action="enviar.php").
+Os nomes dos campos (name="...") podem ter de ser ajustados para coincidir com
+os que o script antigo espera.
+
+O QUE MUDOU NESTA VERSÃO
+- Design moderno, animado e responsivo (telemóvel, tablet e computador)
+- Novo logótipo da empresa no cabeçalho
+- Logótipos das seguradoras limpos e otimizados, em carrossel
+- Todo o conteúdo original mantido, incluindo o formulário de simulação
+- Mapa do Google atualizado na página de Contactos
+- Ano do copyright atualizado para 2026
